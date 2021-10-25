@@ -20,16 +20,16 @@ public class LoginPageTest extends TestBase {
 
 	@BeforeMethod
 	public void setup() {
-		initializeDriver();
+		initDriver();
 		loginpageObj = PageFactory.initElements(driver, LoginPage.class);
 	}
 
 	@Test(priority = 1)
 	public void LoginTest() throws ClassNotFoundException, SQLException, InterruptedException, IOException {
 		loginpageObj.insertUserName("Demo@techfios.com");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		loginpageObj.insertPassword("abc123");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		loginpageObj.clickOnSigninButton();
 		takeScreenshotAtEndOfTest(driver);
 	}
@@ -37,9 +37,9 @@ public class LoginPageTest extends TestBase {
 	@Test(priority = 2)
 	public void LoginPageTitleTest() throws ClassNotFoundException, SQLException, InterruptedException {
 		loginpageObj.insertUserName("Demo@techfios.com");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		loginpageObj.insertPassword("abc123");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		loginpageObj.clickOnSigninButton();
 
 		String expectedTitle = "Dashboard- iBilling";

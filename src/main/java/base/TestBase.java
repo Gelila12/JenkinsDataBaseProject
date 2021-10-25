@@ -19,14 +19,14 @@ public class TestBase {
 	public TestBase() {
 }
 
-	public static void initializeDriver() {
+	public static void initDriver() {
 
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver95.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(2, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("https://techfios.com/billing/?ng=admin/");
 	}
 
