@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="27753" started-at="2021-10-25T21:47:50Z" finished-at="2021-10-25T21:48:18Z">
+  <suite name="Surefire suite" duration-ms="28445" started-at="2021-10-25T16:59:35 CDT" finished-at="2021-10-25T17:00:03 CDT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="27753" started-at="2021-10-25T21:47:50Z" finished-at="2021-10-25T21:48:18Z">
+    <test name="Surefire test" duration-ms="28445" started-at="2021-10-25T16:59:35 CDT" finished-at="2021-10-25T17:00:03 CDT">
       <class name="testCases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.LoginPageTest@62043840]" name="setup" is-config="true" duration-ms="3151" started-at="2021-10-25T21:47:50Z" finished-at="2021-10-25T21:47:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.LoginPageTest@5bcab519]" name="setup" is-config="true" duration-ms="3125" started-at="2021-10-25T16:59:35 CDT" finished-at="2021-10-25T16:59:38 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:1, instance:testCases.LoginPageTest@62043840]" name="LoginTest" duration-ms="10427" started-at="2021-10-25T21:47:53Z" finished-at="2021-10-25T21:48:04Z">
+        <test-method status="PASS" signature="LoginTest()[pri:1, instance:testCases.LoginPageTest@5bcab519]" name="LoginTest" duration-ms="10327" started-at="2021-10-25T16:59:38 CDT" finished-at="2021-10-25T16:59:48 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@62043840]" name="tearDown" is-config="true" duration-ms="1104" started-at="2021-10-25T21:48:04Z" finished-at="2021-10-25T21:48:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="1054" started-at="2021-10-25T16:59:48 CDT" finished-at="2021-10-25T16:59:49 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.LoginPageTest@62043840]" name="setup" is-config="true" duration-ms="2387" started-at="2021-10-25T21:48:05Z" finished-at="2021-10-25T21:48:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.LoginPageTest@5bcab519]" name="setup" is-config="true" duration-ms="2539" started-at="2021-10-25T16:59:49 CDT" finished-at="2021-10-25T16:59:52 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:2, instance:testCases.LoginPageTest@62043840]" name="LoginPageTitleTest" duration-ms="9607" started-at="2021-10-25T21:48:07Z" finished-at="2021-10-25T21:48:17Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:2, instance:testCases.LoginPageTest@5bcab519]" name="LoginPageTitleTest" duration-ms="10254" started-at="2021-10-25T16:59:52 CDT" finished-at="2021-10-25T17:00:02 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@62043840]" name="tearDown" is-config="true" duration-ms="1055" started-at="2021-10-25T21:48:17Z" finished-at="2021-10-25T21:48:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="1112" started-at="2021-10-25T17:00:02 CDT" finished-at="2021-10-25T17:00:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
