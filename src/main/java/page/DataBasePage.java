@@ -32,18 +32,6 @@ public class DataBasePage {
 	   }
 	}
 
-	/*  } catch (Exception e) {
-	   e.printStackTrace();
-	  } finally {
-	   if (rs != null) {
-	    rs.close();
-	   }
-	   if (connection != null) {
-	    connection.close();
-	   }
-	  }
-	  return columnValue;
-	 }*/
 
 
 

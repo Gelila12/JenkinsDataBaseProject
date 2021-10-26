@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 
 import base.TestBase;
 import page.LoginPage;
-
 public class LoginPageTest extends TestBase {
 
 	LoginPage loginpageObj;
@@ -26,9 +25,9 @@ public class LoginPageTest extends TestBase {
 	@Test(priority = 1)
 	public void LoginTest() throws ClassNotFoundException, SQLException, InterruptedException, IOException {
 		loginpageObj.insertUserName("Demo@techfios.com");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		loginpageObj.insertPassword("abc123");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		loginpageObj.clickOnSigninButton();
 		takeScreenshotAtEndOfTest(driver);
 	}
@@ -36,9 +35,9 @@ public class LoginPageTest extends TestBase {
 	@Test(priority = 2)
 	public void LoginPageTitleTest() throws ClassNotFoundException, SQLException, InterruptedException {
 		loginpageObj.insertUserName("Demo@techfios.com");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		loginpageObj.insertPassword("abc123");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		loginpageObj.clickOnSigninButton();
 
 		String expectedTitle = "Dashboard- iBilling";
