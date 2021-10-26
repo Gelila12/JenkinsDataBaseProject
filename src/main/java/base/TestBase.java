@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestBase {
    public static WebDriver driver;
@@ -19,6 +20,9 @@ public class TestBase {
 
 	public static void initializeDriver() {
 
+		
+		ChromeOptions chromeOptions= new ChromeOptions();
+		chromeOptions.setBinary("C:\\Users\\gelil\\eclipse selenium\\TF_MVProject");
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver95.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
