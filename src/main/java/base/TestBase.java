@@ -23,7 +23,7 @@ public class TestBase {
 		
 		ChromeOptions chromeOptions= new ChromeOptions();
 		
-		chromeOptions.setBinary("C:\\Users\\gelil\\eclipse selenium\\TF_MVProject");
+		chromeOptions.setBinary("C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\2nd jenkine\\pom.xml");
 		chromeOptions.addArguments("headless");
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver95.exe");
 		driver = new ChromeDriver();
