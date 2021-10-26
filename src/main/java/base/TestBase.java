@@ -22,7 +22,9 @@ public class TestBase {
 
 		
 		ChromeOptions chromeOptions= new ChromeOptions();
+		
 		chromeOptions.setBinary("C:\\Users\\gelil\\eclipse selenium\\TF_MVProject");
+		chromeOptions.addArguments("headless");
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver95.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
