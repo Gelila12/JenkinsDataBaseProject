@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-26T01:51:02 CDT" name="Default suite" finished-at="2021-10-26T01:51:22 CDT" duration-ms="19227">
+  <suite started-at="2021-10-26T02:22:00 CDT" name="Default suite" finished-at="2021-10-26T02:22:18 CDT" duration-ms="18059">
     <groups>
     </groups>
-    <test started-at="2021-10-26T01:51:02 CDT" name="Default test" finished-at="2021-10-26T01:51:22 CDT" duration-ms="19227">
+    <test started-at="2021-10-26T02:22:00 CDT" name="Default test" finished-at="2021-10-26T02:22:18 CDT" duration-ms="18059">
       <class name="testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T01:51:02 CDT" name="setup" finished-at="2021-10-26T01:51:05 CDT" duration-ms="2360" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T02:22:00 CDT" name="setup" finished-at="2021-10-26T02:22:03 CDT" duration-ms="2771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTest()[pri:1, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T01:51:05 CDT" name="LoginTest" finished-at="2021-10-26T01:51:13 CDT" duration-ms="8308" status="PASS">
+        <test-method signature="LoginTest()[pri:1, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T02:22:03 CDT" name="LoginTest" finished-at="2021-10-26T02:22:09 CDT" duration-ms="6037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T01:51:13 CDT" name="tearDown" finished-at="2021-10-26T01:51:14 CDT" duration-ms="520" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T02:22:09 CDT" name="tearDown" finished-at="2021-10-26T02:22:10 CDT" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T01:51:14 CDT" name="setup" finished-at="2021-10-26T01:51:15 CDT" duration-ms="1784" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T02:22:10 CDT" name="setup" finished-at="2021-10-26T02:22:12 CDT" duration-ms="2011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginPageTitleTest()[pri:2, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T01:51:15 CDT" name="LoginPageTitleTest" finished-at="2021-10-26T01:51:21 CDT" duration-ms="5536" status="PASS">
+        <test-method signature="LoginPageTitleTest()[pri:2, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T02:22:12 CDT" name="LoginPageTitleTest" finished-at="2021-10-26T02:22:18 CDT" duration-ms="5947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T01:51:21 CDT" name="tearDown" finished-at="2021-10-26T01:51:22 CDT" duration-ms="684" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@318ba8c8]" started-at="2021-10-26T02:22:18 CDT" name="tearDown" finished-at="2021-10-26T02:22:18 CDT" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
