@@ -1,61 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testCases.LoginPageTest" time="20.425" tests="2" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="testCases.LoginPageTest" time="12.302" errors="0" skipped="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\gelil\eclipse selenium\TF_MVProject\target\test-classes;C:\Users\gelil\eclipse selenium\TF_MVProject\target\classes;C:\Users\gelil\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\gelil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\gelil\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\gelil\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\gelil\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\gelil\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\gelil\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\gelil\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gelil\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\gelil\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gelil\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\gelil\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\gelil\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\gelil\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\gelil\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\gelil\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\gelil\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\gelil\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\gelil\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\gelil\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\gelil\.m2\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;C:\Users\gelil\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\gelil\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="America/Chicago"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17+35-2724"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\gelil\AppData\Local\Temp\surefire696474615448259688\surefirebooter1980791315818354064.jar C:\Users\gelil\AppData\Local\Temp\surefire696474615448259688 2021-10-26T01-49-58_431-jvmRun1 surefire37780776141435943tmp surefire_08236991351863496792tmp"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gelil\eclipse selenium\TF_MVProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\gelil\eclipse selenium\TF_MVProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17+35-2724"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\gelil\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\gelil\eclipse selenium\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7096317815863157839.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\maven\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gelil\AppData\Local\Microsoft\WindowsApps;C:\Users\gelil\AppData\Local\GitHubDesktop\bin;C:\Users\gelil\OneDrive\Desktop\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\gelil\eclipse selenium\TF_MVProject\target\test-classes;C:\Users\gelil\eclipse selenium\TF_MVProject\target\classes;C:\Users\gelil\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\gelil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\gelil\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\gelil\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\gelil\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\gelil\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\gelil\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\gelil\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\gelil\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gelil\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\gelil\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gelil\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\gelil\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\gelil\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\gelil\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\gelil\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\gelil\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\gelil\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\gelil\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\gelil\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\gelil\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\gelil\.m2\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;C:\Users\gelil\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\gelil\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\gelil"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="gelil"/>
+    <property name="java.class.path" value="C:\Users\gelil\OneDrive\Desktop\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210618-2246\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-09-14"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
-    <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\gelil\eclipse selenium\TF_MVProject"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\gelil\AppData\Local\Temp\surefire696474615448259688\surefirebooter1980791315818354064.jar"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17+35-2724"/>
-    <property name="user.name" value="gelil"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\gelil\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\gelil\AppData\Local\Temp\"/>
-    <property name="java.version" value="17"/>
-    <property name="user.dir" value="C:\Users\gelil\eclipse selenium\TF_MVProject"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\maven\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gelil\AppData\Local\Microsoft\WindowsApps;C:\Users\gelil\AppData\Local\GitHubDesktop\bin;C:\Users\gelil\OneDrive\Desktop\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17"/>
+    <property name="native.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="17+35-2724"/>
+    <property name="maven.home" value="C:\Users\gelil\eclipse selenium\TF_MVProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="LoginTest" classname="testCases.LoginPageTest" time="8.405"/>
-  <testcase name="LoginPageTitleTest" classname="testCases.LoginPageTest" time="5.701"/>
+  <testcase classname="testCases.LoginPageTest" name="LoginTest" time="6.611"/>
+  <testcase classname="testCases.LoginPageTest" name="LoginPageTitleTest" time="5.691"/>
 </testsuite>
