@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="35549" started-at="2021-10-25T22:23:43 CDT" finished-at="2021-10-25T22:24:18 CDT">
+  <suite started-at="2021-10-25T23:56:27 CDT" name="Surefire suite" finished-at="2021-10-25T23:56:50 CDT" duration-ms="22597">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="35549" started-at="2021-10-25T22:23:43 CDT" finished-at="2021-10-25T22:24:18 CDT">
+    <test started-at="2021-10-25T23:56:27 CDT" name="Surefire test" finished-at="2021-10-25T23:56:50 CDT" duration-ms="22597">
       <class name="testCases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.LoginPageTest@59ec2012]" name="setup" is-config="true" duration-ms="3146" started-at="2021-10-25T22:23:43 CDT" finished-at="2021-10-25T22:23:46 CDT">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPageTest@4f51b3e0]" started-at="2021-10-25T23:56:27 CDT" name="setup" finished-at="2021-10-25T23:56:30 CDT" duration-ms="2675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:1, instance:testCases.LoginPageTest@59ec2012]" name="LoginTest" duration-ms="14045" started-at="2021-10-25T22:23:46 CDT" finished-at="2021-10-25T22:24:00 CDT">
+        <test-method signature="LoginTest()[pri:1, instance:testCases.LoginPageTest@4f51b3e0]" started-at="2021-10-25T23:56:30 CDT" name="LoginTest" finished-at="2021-10-25T23:56:38 CDT" duration-ms="8333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@59ec2012]" name="tearDown" is-config="true" duration-ms="1106" started-at="2021-10-25T22:24:00 CDT" finished-at="2021-10-25T22:24:01 CDT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@4f51b3e0]" started-at="2021-10-25T23:56:38 CDT" name="tearDown" finished-at="2021-10-25T23:56:39 CDT" duration-ms="770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.LoginPageTest@59ec2012]" name="setup" is-config="true" duration-ms="2412" started-at="2021-10-25T22:24:01 CDT" finished-at="2021-10-25T22:24:03 CDT">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPageTest@4f51b3e0]" started-at="2021-10-25T23:56:39 CDT" name="setup" finished-at="2021-10-25T23:56:41 CDT" duration-ms="2101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:2, instance:testCases.LoginPageTest@59ec2012]" name="LoginPageTitleTest" duration-ms="13746" started-at="2021-10-25T22:24:03 CDT" finished-at="2021-10-25T22:24:17 CDT">
+        <test-method signature="LoginPageTitleTest()[pri:2, instance:testCases.LoginPageTest@4f51b3e0]" started-at="2021-10-25T23:56:41 CDT" name="LoginPageTitleTest" finished-at="2021-10-25T23:56:49 CDT" duration-ms="7842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@59ec2012]" name="tearDown" is-config="true" duration-ms="1059" started-at="2021-10-25T22:24:17 CDT" finished-at="2021-10-25T22:24:18 CDT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@4f51b3e0]" started-at="2021-10-25T23:56:49 CDT" name="tearDown" finished-at="2021-10-25T23:56:50 CDT" duration-ms="837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
