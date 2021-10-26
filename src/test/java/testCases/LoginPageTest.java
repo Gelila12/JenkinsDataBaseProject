@@ -1,7 +1,6 @@
 package testCases;
 
 import java.io.IOException;
-import java.sql.SQLException;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -23,7 +22,7 @@ public class LoginPageTest extends TestBase {
 	}
 
 	@Test(priority = 1)
-	public void LoginTest() throws ClassNotFoundException, SQLException, InterruptedException, IOException {
+	public void LoginTest() throws  IOException, InterruptedException {
 		loginpageObj.insertUserName("Demo@techfios.com");
 		Thread.sleep(2000);
 		loginpageObj.insertPassword("abc123");
@@ -33,7 +32,7 @@ public class LoginPageTest extends TestBase {
 	}
 
 	@Test(priority = 2)
-	public void LoginPageTitleTest() throws ClassNotFoundException, SQLException, InterruptedException {
+	public void LoginPageTitleTest() throws   IOException, InterruptedException   {
 		loginpageObj.insertUserName("Demo@techfios.com");
 		Thread.sleep(2000);
 		loginpageObj.insertPassword("abc123");

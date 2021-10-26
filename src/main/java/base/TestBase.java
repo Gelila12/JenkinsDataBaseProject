@@ -21,11 +21,8 @@ public class TestBase {
 	public static void initializeDriver() {
 
 		
-		ChromeOptions Options= new ChromeOptions();
-		
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setBinary("C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\workspace");
-		Options.addArguments("headless");
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver95.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
