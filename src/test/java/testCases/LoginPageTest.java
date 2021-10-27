@@ -25,9 +25,9 @@ public class LoginPageTest extends TestBase {
 	@Test(priority = 1)
 	public void LoginTest() throws  InterruptedException, ClassNotFoundException, SQLException, IOException  {
 		loginpageObj.insertUserName("Demo@techfios.com");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		loginpageObj.insertPassword("abc123");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		loginpageObj.clickOnSigninButton();
 		takeScreenshotAtEndOfTest(driver);
 	}
