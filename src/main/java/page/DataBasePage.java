@@ -35,30 +35,3 @@ public class DataBasePage {
 
 
 
-/*
- * @DbLogin Feature: Techfios Other login functionality validation driving the
- * data from MySql database
- * 
- * Background: Given User is on Techfios login page
- * 
- * @DbScenario1 Scenario: User should be able to login with valid credentials
- * and open a new account When User enters "username" from mysql database When
- * User enters "password" from mysql database And User clicks on Signin button
- * Then User should land on Dashboard page
- */
-
-
-
-
-
-	/*
-	 * @When("^User enters \"([^\"]*)\" from mysql database$") public void
-	 * user_enters_from_mysql_database(String data) throws Throwable { switch (data)
-	 * { case "username": System.out.println("Username from DB: "+
-	 * databasePage.getData("username"));
-	 * loginPage.enterUserName(databasePage.getData("username"));
-	 * Thread.sleep(3000); break; case "password":
-	 * System.out.println("Password from DB: "+ databasePage.getData("password"));
-	 * loginPage.enterPassword(databasePage.getData("password")); break; default:
-	 * System.out.println("Unable to enter data!"); } }
-	 */
